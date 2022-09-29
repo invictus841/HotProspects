@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC57919A28E452D600009754 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57919928E452D500009754 /* ImageSaver.swift */; };
+		AC57919E28E59AB400009754 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57919D28E59AB400009754 /* FileManager-DocumentsDirectory.swift */; };
 		AC59167A28E2F09200033898 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AC59167928E2F09200033898 /* CodeScanner */; };
 		AC5E0AEE28DCA17E0043BBF0 /* HotProspectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E0AED28DCA17E0043BBF0 /* HotProspectsApp.swift */; };
 		AC5E0AF028DCA17E0043BBF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E0AEF28DCA17E0043BBF0 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		AC57919928E452D500009754 /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		AC57919D28E59AB400009754 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		AC5E0AEA28DCA17E0043BBF0 /* HotProspects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotProspects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5E0AED28DCA17E0043BBF0 /* HotProspectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotProspectsApp.swift; sourceTree = "<group>"; };
 		AC5E0AEF28DCA17E0043BBF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				AC5E0AED28DCA17E0043BBF0 /* HotProspectsApp.swift */,
 				AC5E0AEF28DCA17E0043BBF0 /* ContentView.swift */,
 				AC7909DD28E1A486003B4EAC /* ProspectsView.swift */,
+				AC57919D28E59AB400009754 /* FileManager-DocumentsDirectory.swift */,
 				AC7909E128E1A877003B4EAC /* Prospect.swift */,
 				AC57919928E452D500009754 /* ImageSaver.swift */,
 				AC7909DF28E1A48C003B4EAC /* MeView.swift */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7909E028E1A48C003B4EAC /* MeView.swift in Sources */,
+				AC57919E28E59AB400009754 /* FileManager-DocumentsDirectory.swift in Sources */,
 				AC57919A28E452D600009754 /* ImageSaver.swift in Sources */,
 				AC7909E228E1A877003B4EAC /* Prospect.swift in Sources */,
 				AC7909DE28E1A486003B4EAC /* ProspectsView.swift in Sources */,
